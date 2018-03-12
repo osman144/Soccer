@@ -1,0 +1,133 @@
+body{
+    background-image: url("../images/soccer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.score-card{
+    width:400px;
+    background-color:red;
+    border-radius: 7px;
+    display:block;
+    overflow: hidden;
+    padding:5px;
+    box-sizing:border-box;
+    margin: 30px auto;
+    background-color: rgba(85,85,85,0.5)
+}
+
+.inner-card{
+    width:400px;
+    display:block;
+    margin:0 auto;
+}
+
+.left-team{
+    height:100%;
+    display:block;
+    margin:0 auto;
+    width: 150px;
+    float:left;
+}
+
+.right-team{
+    height:100%;
+    display:block;
+    margin:0 auto;
+    width: 150px;
+    float:right;
+}
+
+.time{
+    text-align:center;
+    color:white;
+    font-family: 'Open Sans';
+    font-size:40px;
+}
+
+.vs{
+    width: calc(100%-300px);
+    text-align:center;
+    color:whitesmoke;
+    padding-top:40px;
+    font-family: 'Open Sans';
+}
+
+.left-team .team-container{
+    font-family: 'Open Sans';
+    font-size: 18px;
+    color:white;
+    text-align:left;
+    font-weight: 300;
+}
+
+.right-team .team-container{
+    font-family: 'Open Sans';
+    font-size: 18px;
+    color:white;
+    text-align:right;
+    font-weight: 300;
+}
+
+.left-team .team-container img{
+    width: 100px;
+    float:left;
+    display:block;
+    margin:0 auto;
+}
+
+.right-team .team-container img{
+    width: 100px;
+    float:right;
+    display:block;
+    margin:0 auto;
+}
+
+.left-team .team-container span{
+    font-size:40px;
+    width:100%;
+    clear:both;
+    display:block;
+    font-weight:600;
+    text-align:center;
+}
+
+.right-team .team-container span{
+    font-size:40px;
+    width:100%;
+    clear:both;
+    display:block;
+    font-weight:600;
+    text-align:center;
+}
+
+
+.button{
+    font-family: 'Open Sans';
+    font-size: 20px;
+}
+
+.fact-card{
+    width: 700px;
+    height: 350px;
+    background-color:rgba(85,85,85,0.8);
+    border: solid 5px #555555;
+    display:block;
+    margin: 50px auto;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding:20px;
+    border-radius: 7px;
+
+}
+
+.one-event{
+    width:100%;
+    font-family: 'Open Sans';
+    font-size:20px;
+    color:white;
+    margin-bottom: 10px;
+    text-align: center;
+}
